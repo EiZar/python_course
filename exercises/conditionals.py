@@ -39,10 +39,15 @@ if x > 0 or x < 10:
     print(x > 0 or x < 10)  # true or false
 
 # not
-if not (x == y):  # not(false)
+if not (x == y):  # not(false) => true /  not(true) => false
     print('x is not equal to y.')
-else:
+# else:
+#     print('x is equal to y.')
+
+if x == y:
     print('x is equal to y.')
+else:
+    print('x is not equal to y.')
 
 # in
 numbers = [1, 2, 3, 4]
@@ -58,16 +63,16 @@ else:
     print(f'false case {x not in numbers}')
 
 # is
-if x is y:
+if x is y:  # 2 is 2 => true
     print(f'equal case {x is y}')
 else:
     print(f'not equal case {x is y}')
 
 # is not
-if x is not y:
+if x is not y:  # 2 is not 2 => false
     print(f'not equal case {x is not y}')
-else:
-    print(f'equal case {x is not y}')
+# else:
+#     print(f'equal case {x is not y}')
 
 # and
 # true and true => true

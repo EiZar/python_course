@@ -29,3 +29,10 @@ fruits.sort()  # ['Apple', 'Blueberry', 'Orange']
 fruits.sort(reverse=True)  # ['Orange', 'Blueberry', 'Apple']
 
 print(fruits)
+
+# nested list
+nested_numbers = [[1, 11, 21], [2, 12, 22], [3, 13, 23], [4, 14, 24]]
+for i in nested_numbers:
+    for j in i:
+        print(f'{j} ', end='')
+    print()
