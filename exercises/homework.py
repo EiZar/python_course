@@ -11,3 +11,11 @@ count = -10
 while count < 0:
     print(count)
     count += 1
+
+
+# for i in range(1, 5):
+#     for space in range(1, i):
+#         print(' ')
+#     for j in range(1, 5):
+#         print("*", end='')
+#     print()
